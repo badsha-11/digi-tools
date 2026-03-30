@@ -1,6 +1,6 @@
 import React from "react";
 import { CiShoppingCart } from "react-icons/ci";
-const NavBar = () => {
+const NavBar = ({ carts }) => {
   return (
     <div className="bg-base-100 shadow-sm sticky top-0 z-50">
       <div className="navbar w-11/12 mx-auto">
@@ -96,7 +96,16 @@ const NavBar = () => {
         </div>
         {/* nav btn */}
         <div className="navbar-end gap-1.5">
-          <CiShoppingCart className="btn btn-ghost hover:text-red-500 p-2.5  rounded-[50px]" />
+          <div className="relative">
+            <CiShoppingCart className="btn btn-ghost hover:text-red-500 p-2.5 rounded-[50px]" />
+
+            {/* badge */}
+            {carts.length > 0 && (
+              <span className="absolute -top-1 -right-1 bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
+                {carts.length}
+              </span>
+            )}
+          </div>
           <p className="hover:text-red-500">
             <a href="#">Login</a>
           </p>
