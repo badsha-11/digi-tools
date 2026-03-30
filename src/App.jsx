@@ -7,6 +7,7 @@ import React, { useState } from "react";
 import NavBar from "./Component/NavBar/NavBar";
 import ToolBar from "./Component/ToolBar/ToolBar";
 import Cart from "./Component/Cart/Cart";
+import StartetBar from "./Component/StartetBar/StartetBar";
 
 const getTools = async () => {
   const res = await fetch("/data.json");
@@ -40,6 +41,11 @@ function App() {
         </Suspense>
       )}
       {activeTab === "Cart" && <Cart carts={carts} setCarts={setCarts} />}
+
+
+      <StartetBar/>
+
+
 
 
     </>

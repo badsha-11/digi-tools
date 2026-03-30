@@ -25,7 +25,9 @@ const ToolCard = ({ tool, carts, setCarts }) => {
   };
 
   return (
-    <div className="relative border border-gray-300/50 p-5 rounded-xl space-y-4">
+    <div className="relative border border-gray-300/50 p-5 rounded-xl space-y-4 
+                transition-all duration-300 
+                hover:shadow-xl hover:scale-[1.02] hover:border-gray-400">
       <div className="p-2.5 inline-flex rounded-[50px] shadow">{tool.icon}</div>
 
       <p
@@ -55,7 +57,7 @@ const ToolCard = ({ tool, carts, setCarts }) => {
     isBuy ? "from-green-400 to-green-600" : "from-[#4f39f6] to-[#9514fa]"
   }`}
       >
-        {isBuy ? "Owned" : "Buy Now"}
+        {isBuy ? "Added to cart" : "Buy Now"}
       </button>
     </div>
   );

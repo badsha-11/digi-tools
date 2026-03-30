@@ -5,7 +5,7 @@ const Tabs = ({setActiveTab,carts}) => {
   
   return (
     <div>
-      <div className="text-center mb-3.5">
+      <div className="text-center mt-18 mb-3.5">
         <h2 className="text-4xl font-extrabold">Premium Digital Tools</h2>
         <p className="text-[#627382]">
           Choose from our curated collection of premium digital products

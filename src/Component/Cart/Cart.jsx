@@ -1,5 +1,6 @@
 import React from "react";
 import { toast } from "react-toastify";
+import ShopingCart from '../../assets/products/shopping-cart.png'
 
 const Cart = ({ carts, setCarts }) => {
   const totalPrice = carts.reduce((sum, item) => sum + item.price, 0);
@@ -23,6 +24,7 @@ const Cart = ({ carts, setCarts }) => {
 
       {carts.length === 0 && (
         <div className="text-center space-y-1">
+            
           <p>Cart is Empty</p>
           <p className="text-[#627382]">Please buy a thing</p>
         </div>

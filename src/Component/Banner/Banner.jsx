@@ -18,8 +18,8 @@ const Banner = () => {
               New: AI-Powered Tools Available
             </p>
           </div>
-          <h2 className="font-black text-6xl">
-            Supercharge Your <br /> Digital Workflow
+          <h2 className="font-black text-6xl leading-20">
+            Supercharge Your <br /> <span className=" bg-linear-to-r from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent line-h">Digital Workflow</span> 
           </h2>
           <p className="text-[#627382]">
             Access premium AI tools, design assets, templates, and productivity{" "}
@@ -38,24 +38,24 @@ const Banner = () => {
           </div>
         </div>
         <div>
-          <img src={BannerImg} alt="BannerImg" />
+          <img src={BannerImg} alt="BannerImg" className="shadow-2xl" />
         </div>
       </div>
       <div className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] py-12 text-white">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-0">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-0">
             <div className="text-center md:border-r border-white/30">
-              <h2 className="text-4xl md:text-5xl font-bold">50K+</h2>
+              <h2 className="text-3xl md:text-4xl font-bold">50K+</h2>
               <p className="mt-2 text-lg">Active Users</p>
             </div>
 
             <div className="text-center md:border-r border-white/30 pt-8 md:pt-0">
-              <h2 className="text-4xl md:text-5xl font-bold">200+</h2>
+              <h2 className="text-3xl md:text-4xl font-bold">200+</h2>
               <p className="mt-2 text-lg">Premium Tools</p>
             </div>
 
             <div className="text-center pt-8 md:pt-0">
-              <h2 className="text-4xl md:text-5xl font-bold">4.9</h2>
+              <h2 className="text-3xl md:text-4xl font-bold">4.9</h2>
               <p className="mt-2 text-lg">Rating</p>
             </div>
           </div>
