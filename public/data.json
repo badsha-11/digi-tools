@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes that get you noticed by recruiters and ATS systems.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "100+ modern templates",
+      "ATS optimization",
+      "Export to PDF & Word",
+      "Real-time preview",
+      "Cover letter builder"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Job Tracker Premium",
+    "description": "Organize your job search, track applications, and never miss a deadline.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited applications",
+      "Status tracking",
+      "Interview scheduler",
+      "Application analytics",
+      "Email reminders"
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": 3,
+    "name": "Career Coach AI",
+    "description": "Get personalized career advice, interview preparation, and skill recommendations powered by AI.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "AI interview simulator",
+      "Personalized career roadmap",
+      "Skill gap analysis",
+      "Mock interview feedback",
+      "Industry insights"
+    ],
+    "icon": "🤖"
+  },
+  {
+    "id": 4,
+    "name": "LinkedIn Profile Optimizer",
+    "description": "Make your LinkedIn profile stand out and attract recruiters.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "",
+    "tagType": "",
+    "features": [
+      "Profile score analysis",
+      "Keyword optimization",
+      "Headline & summary suggestions",
+      "Experience bullet rewrites",
+      "Before & after comparison"
+    ],
+    "icon": "🔗"
+  },
+  {
+    "id": 5,
+    "name": "Salary Negotiation Toolkit",
+    "description": "Master the art of negotiation and get the salary you deserve.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "Salary data by role & location",
+      "Negotiation scripts",
+      "Counter offer templates",
+      "Value proposition builder",
+      "Confidence building exercises"
+    ],
+    "icon": "💰"
+  },
+  {
+    "id": 6,
+    "name": "Freelance Business Bundle",
+    "description": "Everything you need to run and grow your freelance career.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Contract templates",
+      "Invoice generator",
+      "Client CRM",
+      "Time tracking",
+      "Tax organizer"
+    ],
+    "icon": "💼"
+  },
+  {
+    "id": 7,
+    "name": "Interview Mastery Course",
+    "description": "Complete video course with proven strategies to ace any job interview.",
+    "price": 79,
+    "period": "one-time",
+    "tag": "",
+    "tagType": "",
+    "features": [
+      "50+ common questions",
+      "Behavioral interview techniques",
+      "Video response practice",
+      "Body language training",
+      "Lifetime updates"
+    ],
+    "icon": "🎤"
+  },
+  {
+    "id": 8,
+    "name": "Career Pro Annual Pass",
+    "description": "Access to all career tools with maximum savings and priority support.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "All 7 tools included",
+      "Priority AI support",
+      "Exclusive webinars",
+      "Monthly career coaching",
+      "Early access to new features"
+    ],
+    "icon": "🚀"
+  }
+]
