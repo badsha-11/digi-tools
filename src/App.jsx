@@ -8,14 +8,19 @@ import NavBar from "./Component/NavBar/NavBar";
 import ToolBar from "./Component/ToolBar/ToolBar";
 import Cart from "./Component/Cart/Cart";
 import StartetBar from "./Component/StartetBar/StartetBar";
+import TransparentPricing from "./Component/StartetBar/TransparentPricing";
+import Transform from "./Component/StartetBar/Transform";
+import Footer from "./Component/StartetBar/Footer";
 
 const getTools = async () => {
   const res = await fetch("/data.json");
   return res.json();
 };
 
+
 function App() {
   const toolsPromise = getTools();
+  
   const [activeTab, setActiveTab] = useState("Products");
   const [carts, setCarts] = useState([])
   
@@ -44,6 +49,9 @@ function App() {
 
 
       <StartetBar/>
+      <TransparentPricing />
+      <Transform/>
+      <Footer/>
 
 
 
